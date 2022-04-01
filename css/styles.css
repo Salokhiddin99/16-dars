@@ -53,17 +53,23 @@ header {
 .basic_page_img1 {
     position: absolute;
     z-index: -1;
-    left: 773px;
+    left: 723px;
     top: 248px;
 }
-.basic_page_img2 {
-    position: absolute;
-    z-index: -1;
-    left: 660px;
-    top: 160px;
-}
-.basic_pages {
+
+.hero_basic {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row-reverse;
     padding-top: 200px;
+}
+.basic_title {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.basic_page_img2 {
+    margin-left: 40px;
 }
 .basic_page_title {
     width: 540px;
@@ -120,6 +126,7 @@ header {
     border: 2px solid #5B6074;
 }
 .features {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,7 +156,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 40px;
 }
 .slider_link {
     text-decoration: none;
@@ -159,7 +165,14 @@ header {
     color: #242A45;
     mix-blend-mode: normal;
     opacity: 0.75;
+    padding-bottom: 40px;
+    border-bottom: 2px solid transparent;
 }
 .slider_link:hover {
     color: #FA5959;
+}
+.slider_link:active {
+    border-bottom: 2px solid #FA5959;
+    color: black;
+    font-weight: 600;
 }
