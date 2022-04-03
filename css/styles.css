@@ -156,9 +156,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}+
-
-
+}
 .slider_link {
     text-decoration: none;
     font-size: 16px;
@@ -177,4 +175,105 @@ header {
     border-bottom: 2px solid #FA5959;
     color: black;
     font-weight: 600;
+}
+.click {
+}
+.hero_click {
+    display: flex;
+    flex-direction: row;
+}
+.click_img {
+    position: absolute;
+    left: -123px;
+}
+.click_title {
+    font-size: 32px;
+}
+.click_subtitle {
+    width: 445px;
+    font-size: 18px;
+}
+.hero_click_title {
+    margin-left: 120px;
+}
+.extension {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.download_cards {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.download_card {
+    width: 280px;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+    border-radius: 15px;
+}
+.card_title {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #242A45;
+}
+.card_subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #242A45;
+    opacity: 0.5;
+    margin-bottom: 32px;
+}
+.border {
+    width: 270px;
+    border: #5267DF dotted 1px;
+    margin-bottom: 24px;
+}
+.margin-top {
+    margin-top: 100px;
+}
+.margin-top2 {
+    margin-top: 200px;
+}
+.questons {
+    margin-top: 60px;
+    width: 540px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.line {
+    width: 540px;
+    height: 1px;
+    background-color: #242A45;
+    opacity: 0.25;
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+.answers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+.answer {
+    font-size: 18px;
+    line-height: 32px;
+    color: #242A45;
+}
+.chek {
+    color: rgba(82, 103, 223, 1);
+}
+.questons_link {
+    margin-top: 70px;
 }
