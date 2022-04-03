@@ -156,7 +156,9 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+}+
+
+
 .slider_link {
     text-decoration: none;
     font-size: 16px;
