@@ -374,7 +374,7 @@ footer {
         width: 330px
     }
     .nav {
-        displa;
+        display: none;
     }
     button {
         display: block;
@@ -449,6 +449,7 @@ footer {
         height: 300px;
     }
     form {
+        margin-left: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
