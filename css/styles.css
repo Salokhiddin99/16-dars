@@ -11,6 +11,9 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
 }
+button {
+    display: none;
+}
 header {
     padding-top: 60px;
     display: flex;
@@ -41,6 +44,7 @@ header {
     text-align: center;
     vertical-align: middle;
     padding-top: 10px;
+    color: #FFFFFF;
 }
 .link_button:hover {
     background: #FFFFFF;
@@ -245,20 +249,28 @@ header {
 .margin-top2 {
     margin-top: 200px;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .questons {
+    text-align: center;
     margin-top: 60px;
     width: 540px;
-    text-align: center;
-    vertical-align: middle;
-
 }
 .line {
+    text-align: center;
     width: 540px;
     height: 1px;
     background-color: #242A45;
     opacity: 0.25;
     margin-top: 13px;
     margin-bottom: 0;
+}
+.none {
+    display: none;
+    width: 330px;
 }
 .answers {
     display: flex;
@@ -326,4 +338,164 @@ header {
     line-height: 28px;
     letter-spacing: 0.25px;
     color: #FFFFFF;
+}
+.button:active {
+    background-color: #FFFFFF;
+    color: #FA5959;
+}
+footer {
+    width: 100%;
+    height: 88px;
+    background: #242A45;
+}
+.footer_nav {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_link {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.footer_navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left {
+    margin-left: 50px;
+}
+@media only screen and (min-width: 375px) {
+    .container {
+        width: 330px;
+    }
+    header {
+        width: 330px
+    }
+    .nav {
+        displa;
+    }
+    button {
+        display: block;
+        color: black;
+        font-size: 40px;
+        background-color: #FFFFFF;
+        border: none;
+        margin-left: 100%;
+    }
+    .hero_basic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .basic_page_img1 {
+        width: 300px;
+        height: 230px;
+        position: absolute;
+        top: 250px;
+        left: 80px;
+    }
+    .basic_page_img2 {
+        width: 330px;
+        height: 260px;
+    }
+    .basic_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .basic_pages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .basic_page_title {
+        width: 330px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .basic_page_subtitle {
+        width: 310px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .questons {
+        width: 330px;
+    }
+    .none {
+        display: block;
+    }
+    .download_cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .doing {
+        width: 375px;
+    }
+    footer {
+        padding: 10px;
+        width: 375px;
+        height: 300px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email {
+        margin-bottom: 20px;
+    }
+    .footer_nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .site_nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_link {
+        margin-top: 20px;
+    }
+    .click_img {
+        position: absolute;
+        left: 0;
+        top: 250px;
+        width: 330px;
+        height: 220px;
+    }
+    .click_img2 {
+        width: 330px;
+        height: 220px;
+    }
+    .line {
+        width: 330px;
+    }
+    .basic_page_link_google {
+        font-size: 12px;
+    }
+    .basic_page_link_firefox {
+        font-size: 12px;
+    }
+    .doing__title {
+        width: 330px;
+        font-size: 25px;
+    }
 }
