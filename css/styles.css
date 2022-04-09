@@ -370,10 +370,7 @@ footer {
     .container {
         width: 330px;
     }
-    header {
-        width: 330px
-    }
-    .nav {
+    .site_nav{
         display: none;
     }
     button {
@@ -382,7 +379,10 @@ footer {
         font-size: 40px;
         background-color: #FFFFFF;
         border: none;
-        margin-left: 100%;
+        margin-left: 40%;
+    }
+    .site_link {
+        display: none;
     }
     .hero_basic {
         display: flex;
@@ -394,7 +394,7 @@ footer {
         height: 230px;
         position: absolute;
         top: 250px;
-        left: 80px;
+        left: 50px;
     }
     .basic_page_img2 {
         width: 330px;
@@ -429,6 +429,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 350px;
     }
     .questons {
         width: 330px;
@@ -436,16 +437,19 @@ footer {
     .none {
         display: block;
     }
+    .hero_click_title {
+        margin-left: 0;
+    }
     .download_cards {
         display: flex;
         flex-direction: column;
     }
     .doing {
-        width: 375px;
+        width: 374px;
     }
     footer {
         padding: 10px;
-        width: 375px;
+        width: 374px;
         height: 300px;
     }
     form {
@@ -453,6 +457,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
     }
     .email {
         margin-bottom: 20px;
@@ -472,12 +477,17 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .left {
+        margin-left: 0;
+    }
     .footer_link {
+        margin-right: 0;
         margin-top: 20px;
+        display: block;
     }
     .click_img {
         position: absolute;
-        left: 0;
+        left: -50px;
         top: 250px;
         width: 330px;
         height: 220px;
@@ -485,6 +495,7 @@ footer {
     .click_img2 {
         width: 330px;
         height: 220px;
+        margin-left: 0;
     }
     .line {
         width: 330px;
@@ -499,4 +510,5 @@ footer {
         width: 330px;
         font-size: 25px;
     }
+    
 }
